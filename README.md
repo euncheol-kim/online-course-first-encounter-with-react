@@ -4,3 +4,6 @@
 <br>
 
 Course start date : 2024.12.18
+recoding : [Notion-React](https://giant-ixia-c60.notion.site/React-700504373dc94b15877c0ce3dfb6ca3b?pvs=4)
+
+<br>
