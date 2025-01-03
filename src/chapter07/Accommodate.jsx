@@ -5,7 +5,7 @@ const MAX_CAPACITY = 10;
 
 function Accommodate(props) {
     const [isFull, setIsFull] = useState(false);
-    const [count, increaseCount, decreaseCount] = useCounter(0);
+    const [count, handleIncreaseCount, handleDecreaseCount] = useCounter(0);
 
     // useEffect() : 업데이트마다 실행
     useEffect(() =>{
@@ -17,14 +17,14 @@ function Accommodate(props) {
     // useEffect(...,[value]) : value 값이 변경될 때마다 실행
     useEffect(() => {
         setIsFull(count >= MAX_CAPACITY);
-        console.log(`Current cout value: ${count}`);
+        console.log(`Current count value: ${count}`);
     }, [count]);
 
     return (
         <div style={{padding: 16}}>
             <p>{`총 ${count}명 수용했습니다.`}</p>
-            <button onClick={increaseCount} disabled={isFull}>입장</button>
-            <button onClick={decreaseCount} >퇴장</button>
+            <button onClick={handleIncreaseCount} disabled={isFull}>입장</button>
+            <button onClick={handleDecreaseCount} >퇴장</button>
 
             {isFull && <p style={{color:"red"}}>정원이 가득찼습니다.</p>}
         </div>
