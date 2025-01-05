@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import FruitSelect from './mynote/FruitSelect';
 import Reservation from './mynote/Reservation';
+import SignUp from './chpater11/SignUp';
 
 import Library from './chapter03/Library';
 import Clock from './chapter04/Clock';
@@ -20,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   // <React.StrictMode>
-    <Reservation />
+    <SignUp />
   // </React.StrictMode>
 );
 
