@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import FruitSelect from './mynote/FruitSelect';
+import Reservation from './mynote/Reservation';
+
 import Library from './chapter03/Library';
 import Clock from './chapter04/Clock';
 import CommentList from './chapter05/CommentList';
@@ -17,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   // <React.StrictMode>
-    <AttendanceBook />
+    <Reservation />
   // </React.StrictMode>
 );
 
