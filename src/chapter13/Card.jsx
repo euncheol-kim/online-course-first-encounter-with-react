@@ -3,7 +3,7 @@ function Card(props) {
 
     return(
         <div
-            styles={{
+            style={{
                 margin: 8,
                 padding: 8,
                 borderRadius: 8,
