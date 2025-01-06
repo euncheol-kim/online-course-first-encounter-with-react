@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 import FruitSelect from './mynote/FruitSelect';
 import Reservation from './mynote/Reservation';
-import SignUp from './chpater11/SignUp';
+import SignUp from './chapter11/SignUp';
+import CRUD from './mynote/CRUD';
 
 import Library from './chapter03/Library';
 import Clock from './chapter04/Clock';
@@ -16,12 +17,13 @@ import Accommodate from './chapter07/Accommodate';
 import ConfirmButton from './chapter08/ConfirmButton';
 import LandingPage from './chapter09/LandingPage';
 import AttendanceBook from './chapter10/AttendanceBook';
+import Calculator from './chapter12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   // <React.StrictMode>
-    <SignUp />
+    <CRUD />
   // </React.StrictMode>
 );
 
